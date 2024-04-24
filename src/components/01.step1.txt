@@ -1,0 +1,25 @@
+The first step is to create your components folder and then inside there you create your header and footer folders and files respectively. 
+2. create your layout file
+the reason for this is that if you notice in most web pages , the header and footer always remains the same throughout the applications so instead of repeating our selves over and over agin we can create a boiler plate where we have these comonents static and then which other components we want to display inbetween can now come in
+
+3. The third thing we will be discussing is something called the outlet, so inside our layout we are going to import from the react-router-dom the outlet . The advantage of the outlet is that it helps us to say that a component or componets can be inside of here 
+
+so like we have our header at the top here and the the footer at the botteom and the outlet in the middle so what that means is that there will always be a header and footer but then the outlet signifies that any other component like about us , contact us can now be in between the header
+
+After we have done this nothing is going to change yet because in our main.jsx we are still just rendering the App component and it doesnt yet have the configuration required to actually the router so lets do that now
+
+4. to create the router we go to the main.jsx or your app.jsx whichever one you prefer, there are multiple types of router we can use but i will be creating mine using the "createBrowserRouter"
+
+5. next is to create your components so you can specify the path for each component back in you app.jsx.so lets do that real quick and then continue.
+
+lets talk about the sandwhich mechanism which : we first started with an outer route and we just said the path is / so any other rout inside of the this main route inherits the / so no need to add them again
+
+6. Next to to add Our navlinks in our header so lets do that so i can introduce you to some certain concepts.so lets go to our header and paste the code from my github 
+
+
+
+OTHER RELATED TOPICS
+LINK
+NAVLINK 
+PARAMS 
+404 PAGE

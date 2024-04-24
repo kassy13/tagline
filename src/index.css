@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.tac-one-regular {
+  font-family: "Tac One", sans-serif;
+  letter-spacing: 1rem;
+}
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+}
+
+/* index.css */
+
+.gradient-text {
+  /* Define a linear gradient */
+  background: linear-gradient(
+    90deg,
+    black,
+    rgb(74, 222, 128, 200),
+    rgb(74, 242, 180, 500),
+    rgb(74, 292, 180, 500),
+    black
+  );
+  /* Use background-clip to apply the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Set the text color to transparent so that the gradient shows through */
+  color: transparent;
+}
+
+.open {
+  left: 0;
+}
+/* .mask-semicircle {
+  mask-image: radial-gradient(circle at 50% 0, transparent 50%, black 50%);
+  -webkit-mask-image: radial-gradient(
+    circle at 50% 0,
+    transparent 50%,
+    black 50%
+  );
+} */
+
+.next {
+  color: white;
+  /* margin-right: 2rem; */
+}
+.prev {
+  color: white;
+  /* bottom: 0;
+  margin-left: 2rem; */
+}
+.swiper-pagination {
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: rgb(255, 255, 255) !important;
+}
