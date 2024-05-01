@@ -9,7 +9,6 @@ export const section = [
     title: "Discovery Island Kayak Tour",
     text: "Mainstreet, Broklyn , NY",
     price: "From $129.00",
-    // route: "/:homeid",
     footer: {
       day: "3 days",
       people: 10,

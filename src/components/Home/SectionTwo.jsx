@@ -20,7 +20,7 @@ const SectionTwo = () => {
   return (
     <div className="px-8 md:px-14 h-fit">
       <p className="text-center mb-4">
-        <span className="bg-green-300 text-green-800 p-1 rounded-2xl   ">
+        <span className="bg-green-300 text-green-800 p-1 rounded-2xl px-8  ">
           Popular Tourist Sites
         </span>
       </p>

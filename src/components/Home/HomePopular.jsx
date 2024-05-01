@@ -26,7 +26,7 @@ const HomePopular = () => {
     <section className="flex flex-col mt-8 md:flex-row">
       <div className="px-8 md:px-14 h-fit">
         <p className="text-center mb-4">
-          <span className="bg-green-300 text-green-800 p-1 rounded-2xl   ">
+          <span className="bg-green-300 text-green-800 p-1 rounded-2xl px-8">
             Popular Tourist Sites
           </span>
         </p>
@@ -44,7 +44,7 @@ const HomePopular = () => {
                   className="w-full h-full object-cover"
                 />
                 {/* Overlay */}
-                <div className="before:block before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-50 before:z-10 "></div>
+                <div className="before:block before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-50 before:z-10"></div>
               </div>
               <div className="bg-white relative shadow-md py-4 px-4 rounded-3xl bottom-[1.5rem] z-10 md:bottom-[2rem]  mb-6  ">
                 <span className="flex pb-2 text-orange-400 hover:text-orange-600 ">
